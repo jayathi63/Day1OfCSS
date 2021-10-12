@@ -1,0 +1,58 @@
+html,body
+{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.card-container
+{
+    width:400px;
+    height:400px;
+    background-image: linear-gradient(30deg, hsl(240, 37%, 47%),rgb(160, 228, 248));
+    text-align: center;
+    text-transform: uppercase;
+    color: white;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-container
+{
+    position: relative;
+}
+span
+{
+    display: inline-block;
+    font-size: 100px;
+    font-weight: bolder;
+}
+span.one
+{
+    transform: scale(1.15,1.3);
+}
+span.two
+{
+    transform: scale(1.4,1.35); 
+}
+span.three
+{
+    transform: scale(1.4,1.35);
+}
+.days
+{
+    font-size: 72px;
+    position:absolute;
+    top:100px;
+    left:3px;
+}
+.css-challenge
+{
+    position: absolute;
+    top:175px;
+    font-size: 25px;
+}
